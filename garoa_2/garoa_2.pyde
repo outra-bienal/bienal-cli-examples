@@ -47,5 +47,6 @@ def draw():
         
         current_point = (x, y, caption)
         caption_points.remove(current_point)  # remove novo ponto processado    
-            
+     
+    saveFrame("img_002.png")               
     noLoop()
