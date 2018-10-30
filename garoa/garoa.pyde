@@ -9,7 +9,7 @@ def settings():
     
     bienal = BienalClient()
     print("### GET IMAGE")    
-    analysis = bienal.get_collection_image(col_id=11, image_id=741)  
+    analysis = bienal.get_collection_image(col_id=16, image_id=942)  
 
     url = analysis['image']
     img = loadImage(url)
